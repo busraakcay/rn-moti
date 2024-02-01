@@ -1,0 +1,20 @@
+// colors.js
+export const colors = {
+  white: '#FFFFFF',
+  black: '#000000',
+  dark: '#1E1E1E',
+  dark100: '#333333',
+  dark300: '#555555',
+  blue: '#3498db',
+  grey: '#7f8c8d',
+  grey300: '#BDC3C7',
+  grey600: '#95a5a6',
+  grey700: '#8395a7',
+  grey800: '#2c3e50',
+  grey900: '#34495e',
+  lightOpacity: 'rgba(255, 255, 255, 0.7)',
+  lightOpacity100: 'rgba(255, 255, 255, 1)',
+  white100: '#ecf0f1',
+  white300: '#d0d3d4',
+  white400: '#bdc3c7',
+};

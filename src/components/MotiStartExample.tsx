@@ -22,9 +22,8 @@ function Shape({ bg }) {
   );
 }
 
-export default function App() {
+export function MotiStartExample() {
   const [visible, toggle] = useReducer((s) => !s, true);
-
   return (
     <Pressable onPress={toggle} style={styles.container}>
       <AnimatePresence exitBeforeEnter>
